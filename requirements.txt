@@ -1,0 +1,25 @@
+# Core dependencies for the multiagent system
+langchain-core>=0.2.0
+langchain-huggingface>=0.0.3
+langgraph>=0.1.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Development and testing tools (used by runners)
+ruff>=0.1.0
+pytest>=7.0.0
+pip-audit>=2.0.0
+
+# FastAPI ecosystem for generated code
+fastapi>=0.100.0
+uvicorn>=0.23.0
+httpx>=0.24.0
+pytest-asyncio>=0.21.0
+
+# Standard library extras
+typing-extensions>=4.7.0
+
+# Optional: Additional LLM providers (uncomment when needed)
+# langchain-openai>=0.1.0      # For OpenAI GPT models
+# langchain-anthropic>=0.1.0   # For Anthropic Claude models
+# langchain-google-genai>=1.0.0 # For Google Gemini/PaLM models
